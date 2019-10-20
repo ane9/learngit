@@ -1,0 +1,144 @@
+.container {
+  height: 48px;
+  background: rgba(45, 45, 45, 0.98); }
+  .container .header {
+    min-width: 1000px;
+    height: 48px;
+    width: 1000px;
+    margin: auto;
+    max-height: 44px;
+    background: rgba(45, 45, 45, 0.98); }
+    .container .header .header1 {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; }
+      .container .header .header1 .ul .li #smallWord {
+        display: block;
+        margin: 0 10px;
+        font-weight: 400;
+        font-size: 14px;
+        color: white;
+        line-height: 44px;
+        height: 44px;
+        font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC", "Helvetica Neue","Helvetica","Arial",sans-serif; }
+        .container .header .header1 .ul .li #smallWordhover {
+          color: gray; }
+      .container .header .header1 .ul .li .loga {
+        background-size: 16px 44px;
+        background-repeat: no-repeat; }
+  .container .headerimg {
+    background-image: url(../static/hero-banner-homepage.image.large_2x.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 570px;
+    vertical-align: middle; }
+    .container .headerimg .center {
+      width: 980px;
+      height: 125px;
+      margin: auto;
+      padding-top: 70px; }
+      .container .headerimg .center .word {
+        width: 817px;
+        height: 55px;
+        margin: auto;
+        padding-bottom: 38px;
+        text-align: center;
+        font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC", "Helvetica Neue","Helvetica","Arial",sans-serif;
+        color: #333333;
+        font-size: 48px;
+        font-weight: 500; }
+      .container .headerimg .center input {
+        width: 654px;
+        height: 52px;
+        display: block;
+        margin: auto; }
+  .container .maneyImg {
+    width: 1024px;
+    height: 342px;
+    padding-top: 58px;
+    margin: auto;
+    background: blue; }
+  .container .line {
+    margin-top: 48px;
+    border-bottom: 1px solid #dedede; }
+  .container .gengxin {
+    width: 817px;
+    height: 230px;
+    margin: 38px auto;
+    background: blueviolet; }
+    .container .gengxin .small1 {
+      width: 50%;
+      float: left; }
+      .container .gengxin .small1 .first {
+        color: #333333;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 47px;
+        height: 94px;
+        margin-bottom: 11.2PX; }
+      .container .gengxin .small1 P {
+        color: #333333;
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 32px;
+        height: 64PX;
+        margin-top: 16.5PX;
+        margin-bottom: 5.5PX; }
+      .container .gengxin .small1 .two {
+        height: 32px;
+        margin-top: 24px; }
+        .container .gengxin .small1 .two a {
+          color: #0070c9;
+          font-size: 22px;
+          font-weight: 300;
+          line-height: 32px; }
+          .container .gengxin .small1 .two ahover {
+            text-decoration: underline; }
+    .container .gengxin .small2 {
+      float: right;
+      width: 50%;
+      text-align: center; }
+      .container .gengxin .small2 img {
+        width: 400px;
+        height: 209px; }
+  .container .tongGuo {
+    height: 516px;
+    background-image: url(../static/banner-hero-giveback-support.image.large_2x.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    .container .tongGuo .Tcenter {
+      width: 980px;
+      height: 200px;
+      margin: auto; }
+  .container .threeImg {
+    width: 980px;
+    height: 373px;
+    margin: auto;
+    margin-top: 42px; }
+  .container .xueXi {
+    height: 516px;
+    margin-top: 50px;
+    background-image: url(../static/hero-banner-homepage-mobile.image.large_2x.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    .container .xueXi .Xcenter {
+      width: 980px;
+      height: 153px;
+      margin: auto; }
+
+#smallWord {
+  display: block;
+  padding: 0 10px;
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+  line-height: 44px;
+  height: 44px; }
+  #smallWordhover {
+    color: gray; }
+
+/*# sourceMappingURL=apple.css.map */
